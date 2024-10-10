@@ -1,0 +1,21 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+   
+   float a, b, c, discriminante;
+   //entrada dos coeficientes
+   printf("digite um valor de a: ");
+   scanf("%f", &a);
+   
+   printf("digite um valor de b: ");
+   scanf("%f", &b);
+   
+   printf("digite um valor de c: ");
+   scanf("%f", &c);
+   
+   //caldular do discriminante
+   discriminante = b * b -4 * a * c;
+   
+    return 0;
+}
