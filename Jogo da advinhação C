@@ -14,7 +14,13 @@ int main() {
     if(chute == numerosecreto){
         printf("Acertou! \n");
     }else{
-        printf("Burro! \n");
+        if(chute > numerosecreto){
+        printf("O chute foi maior que o número secreto \n");
+        }
+        if(chute < numerosecreto){
+        printf("O seu chute foi menor igual sua inteligêngia \n");
+        }
+        printf("Burro! Animal desprovido de hábilidades cognitivas básicas \n");
     }
     
 
